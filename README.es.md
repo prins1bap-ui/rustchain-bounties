@@ -20,7 +20,7 @@
 
 ## ¿Qué es RTC?
 
-**RTC (Token RustChain)** es la criptomoneda nativa de [RustChain](https://github.com/Scottcjn/RustChain), una blockchain de **Prueba de Antigüedad** donde el hardware antiguo obtiene recompensas de minería más altas. Tasa de referencia RTC: **$0.10 USD**.
+**RTC (Token RustChain)** es la criptomoneda nativa de [RustChain](https://github.com/Scottcjn/RustChain), una blockchain de **Prueba de Antigüedad** donde el hardware antiguo obtiene recompensas de minería más altas. Tasa de referencia RTC: **$0.15 USD**.
 
 Las becas se pagan en RTC a tu dirección de billetera al completar y verificar el trabajo.
 
@@ -127,7 +127,7 @@ En lugar de recompensar a quienes pueden quemar más electricidad, RustChain pre
 - **Becas abiertas**: 131
 - **RTC disponibles**: 5.900+
 - **Contribuyentes pagados**: 14
-- **Tasa de referencia**: 1 RTC = $0.10 USD
+- **Tasa de referencia**: 1 RTC = $0.15 USD
 
 ---
 

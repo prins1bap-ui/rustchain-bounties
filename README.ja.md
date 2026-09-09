@@ -21,7 +21,7 @@
 
 ## RTC とは?
 
-**RTC (RustChain Token)** は [RustChain](https://github.com/Scottcjn/RustChain) のネイティブ暗号通貨です。RustChain は、ヴィンテージハードウェアがより高いマイニング報酬を得られる Proof-of-Antiquity ブロックチェーンです。RTC 基準レート: **$0.10 USD**。
+**RTC (RustChain Token)** は [RustChain](https://github.com/Scottcjn/RustChain) のネイティブ暗号通貨です。RustChain は、ヴィンテージハードウェアがより高いマイニング報酬を得られる Proof-of-Antiquity ブロックチェーンです。RTC 基準レート: **$0.15 USD**。
 
 バウンティは完了・検証後にウォレットアドレスに RTC で支払われます。
 
@@ -88,7 +88,7 @@ Issue にコメント: **"I would like to work on this"**
 - **オープンバウンティ**: 131
 - **利用可能 RTC**: 5,900+
 - **報酬を受け取ったコントリビューター**: 14
-- **基準レート**: 1 RTC = $0.10 USD
+- **基準レート**: 1 RTC = $0.15 USD
 
 ---
 
