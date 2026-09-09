@@ -1,13 +1,9 @@
 name: RTC Auto-Pay on PR Merge
 
-# FIX: this previously triggered on `pull_request: [closed]`, which does NOT
-# receive repository secrets for PRs opened from forks (GitHub security). Almost
-# every bounty claim is a fork PR, so RTC_VPS_HOST / RTC_ADMIN_KEY arrived blank
-# and award_rtc exited 1 — silently failing every payout.
-#
-# `push: [main]` runs AFTER merge, in the trusted base-repo context, WITH secret
-# access, on already-merged code. (Deliberately NOT pull_request_target, which
-# would run untrusted PR head code with secrets — a known security footgun.)
+# Payout automation must only run in the canonical RustChain bounty repository.
+# Forks inherit this workflow but do not own the canonical payout authority or
+# payout secrets. Running it in a contribution fork creates guaranteed failures
+# and, worse, would be unsafe if payout credentials were ever copied there.
 on:
   push:
     branches: [main]
@@ -19,6 +15,7 @@ permissions:
 
 jobs:
   auto-pay:
+    if: github.repository == 'Scottcjn/rustchain-bounties'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
