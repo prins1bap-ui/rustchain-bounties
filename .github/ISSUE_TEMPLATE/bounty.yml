@@ -113,6 +113,24 @@ body:
       required: true
 
   - type: textarea
+    id: external_feasibility
+    attributes:
+      label: External Delivery / Platform Feasibility
+      description: >
+        Required when acceptance depends on a third-party platform, account,
+        upload route, publication surface, hardware run, or other external
+        proof. Verify the current limits before posting the bounty. Write
+        "Not applicable" when the bounty is fully repo-local.
+      placeholder: |
+        External platform/service: ...
+        Current constraints checked: duration / file size / category / account / auth / API or upload route
+        Evidence URL, source ref, and date checked: ...
+        Do the acceptance criteria fit those constraints? yes / no
+        If no, revise the bounty before publishing.
+    validations:
+      required: true
+
+  - type: textarea
     id: supply_chain
     attributes:
       label: Supply-Chain Hygiene
