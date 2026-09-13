@@ -1,6 +1,6 @@
 # Bounty Hygiene and Research Rules
 
-Last updated: 2026-09-02
+Last updated: 2026-09-12
 
 This document defines the minimum quality and safety bar for RustChain/BoTTube bounties.
 It exists to make submissions reproducible, auditable, safe to review, and less likely to waste contributor or maintainer time on work that could never qualify.
@@ -17,6 +17,7 @@ Every new bounty issue should include:
 - cap, slot, per-person, or first-accepted limits when applicable
 - the accepted submission route (`PR`, issue comment, email fallback, public repo, external proof URL, etc.)
 - any external proof dependency such as hardware, publication, account age, live URL, or third-party acceptance
+- for externally delivered work, the current platform constraints that govern acceptance (for example duration, file size, content category, account/auth requirements, API/upload route, and any retention window), plus the source/ref and date checked
 - disclosure expectations (for security work)
 
 If the title, body, machine-readable bounty spec, or later maintainer clarification disagree about reward or eligibility, contributors should record the conflict and use the most recent explicit maintainer rule rather than silently choosing the larger value.
@@ -33,8 +34,11 @@ Before substantial implementation starts, verify all of the following from the l
 6. Every required acceptance criterion can be demonstrated honestly.
 7. The required submission route is actually executable by the contributor.
 8. Any required external proof can really be produced; screenshots, publication, hardware runs, users, transactions, or third-party approvals must never be invented.
+9. If the deliverable must live on an external platform, its acceptance criteria fit the platform's current limits. Check duration, file-size, category, account/auth, API/upload-route, and retention constraints against an authoritative current source before publishing the bounty. Record the source/ref and date checked so contributors can re-verify it.
 
 If one of these gates fails, stop before building and either choose another bounty or wait for the specific condition to change. A large headline reward does not make an ineligible or unsubmittable task valuable.
+
+A bounty whose requested artifact cannot be uploaded, categorized, authenticated, or kept live on its required platform is not executable as written. Revise the bounty first instead of asking contributors to discover the contradiction after doing the work.
 
 ## 3) Submission Route Integrity
 
