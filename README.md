@@ -67,7 +67,7 @@ Once verified, RTC is sent to your wallet. First time? We will help you set one 
 
 | Bounty | Reward | Difficulty |
 |--------|--------|-----------|
-| [RustChain to 500 Stars](https://github.com/Scottcjn/rustchain-bounties/issues/553) | 150 RTC pool | Easy |
+| [Discovery Mode — improve Elyan Labs software](https://github.com/Scottcjn/rustchain-bounties/issues/100) | 10 RTC per accepted improvement PR | Easy–Medium |
 | [Dual-Mining: Warthog Integration](https://github.com/Scottcjn/rustchain-bounties/issues/550) | 25 RTC | Major |
 | [Ledger Integrity Red Team](https://github.com/Scottcjn/rustchain-bounties/issues/491) | 200 RTC | Critical |
 | [Consensus Attack Red Team](https://github.com/Scottcjn/rustchain-bounties/issues/493) | 200 RTC | Critical |
