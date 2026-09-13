@@ -22,29 +22,21 @@ All merged contributions earn RTC tokens! See the bounty tiers:
 | Major | 75-100 RTC | Security fix, consensus improvement |
 | Critical | 100-150 RTC | Vulnerability patch, protocol upgrade |
 
-Browse [open bounties](https://github.com/Scottcjn/rustchain-bounties/issues) to find tasks with specific RTC rewards.
+Browse the [live open-bounty queue](https://github.com/Scottcjn/rustchain-bounties/issues?q=is%3Aissue+is%3Aopen+label%3Abounty) to find currently open tasks with specific RTC rewards. For the canonical claim and submission rules, see [How to Submit a Bounty PR That Actually Gets Paid](docs/HOW_TO_SUBMIT_A_BOUNTY.md).
 
 ## 🎯 Bounty Workflow Guide
 
 ### Finding Bounties
-1. Go to the [rustchain-bounties repository issues](https://github.com/Scottcjn/rustchain-bounties/issues)
-2. Look for issues with bounty labels (e.g., `[DOC]`, `[FEAT]`, `[BUG]`)
-3. Check the issue description for RTC reward information
-4. **Important**: Read the [Anti-Farming Rules (#452)](https://github.com/Scottcjn/rustchain-bounties/issues/452) before claiming any bounty
+1. Go to the [live open-bounty queue](https://github.com/Scottcjn/rustchain-bounties/issues?q=is%3Aissue+is%3Aopen+label%3Abounty)
+2. Choose an issue labeled `bounty` and read the full issue, acceptance criteria, reward, and current comments before starting
+3. Check whether the work is already claimed, submitted, merged, or paid; stale open issues can still have completed work in their thread
+4. **Important**: Read the [Anti-Farming Rules (#452)](https://github.com/Scottcjn/rustchain-bounties/issues/452) and the [canonical submission guide](docs/HOW_TO_SUBMIT_A_BOUNTY.md) before claiming any bounty
 
 ### Claiming a Bounty
-1. **Check if already claimed**: Read the issue comments to see if someone has already claimed it
-2. **Claim format**: Comment on the issue with:
-   ```
-   **Claiming this bounty.**
-   
-   [Brief description of your approach]
-   
-   Timeline: [Estimated completion time]
-   -BetsyMalthus (or your GitHub username)
-   ```
-3. **Wait for acknowledgment**: If no one else has claimed, you can proceed
-4. **Start working**: Fork the repository and begin implementation
+1. **Claim it**: Comment `/claim` on the bounty issue before you begin work
+2. **Treat the claim as a courtesy signal, not a lock**: Claims last 7 days and help other contributors avoid duplicate work, but they do not reserve payment
+3. **Check the automation response**: If the issue is already claimed or the work is already complete, move to another bounty instead of racing a known duplicate
+4. **Renew only when needed**: If your claim lapses while you are still actively working, comment `/claim` again to renew it
 
 ### Why claims get turned down
 
